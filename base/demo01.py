@@ -10,5 +10,13 @@ def demo01():
         print(line.decode('utf-8'))
 
 
+def fibonacci():
+    a, b = 0, 1
+    while b < 1000:
+        print(b, end=',')
+        a, b = b, a+b
+
+
 if __name__ == "__main__":
     demo01()
+    fibonacci()
