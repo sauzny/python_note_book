@@ -4,11 +4,10 @@ def demo01():
 
     print("我是汉字")
 
-    f = open('demo01.txt', 'rb')
+    f = open('./demo01.txt', 'rb')
 
     for line in f:
         print(line.decode('utf-8'))
-
 
 def fibonacci():
     a, b = 0, 1
