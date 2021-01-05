@@ -7,8 +7,8 @@ import sys
 
 workDay = 0
 restDay = 0
-month = 10
-weeks = calendar.monthcalendar(2020, month)
+month = 1
+weeks = calendar.monthcalendar(2021, month)
 
 jobDays = [[] for i in range(6)]
 jobDaysIndex = 0
@@ -60,12 +60,12 @@ print('获得倒休小时 | 0 | -')
 print()
 print('工作日汇总统计（天）：')
 print()
-print('星期\\项目 | XXX | XXX | XXX | 汇总')
-print('-------|--------|--------|------|------')
+print('星期\\项目 | XXX | 汇总')
+print('----------|-----|------')
 for jobDay in jobDays:
     if len(jobDay) > 0:
-        print(str(jobDay) + ' | 0.0 | 0.0 | 0.0 | 0.0')
-print('汇总    | 0.0 | 0.0 | 0.0| 0.0')
+        print(str(jobDay) + ' | 0.0 | 0.0')
+print('汇总    | 0.0 | 0.0')
 
 print()
 print('详情：')
