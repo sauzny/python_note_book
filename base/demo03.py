@@ -7,7 +7,7 @@ import sys
 
 workDay = 0
 restDay = 0
-month = 4
+month = 5
 weeks = calendar.monthcalendar(2021, month)
 
 jobDays = [[] for i in range(6)]
@@ -50,7 +50,7 @@ print('| 平均工时 <br/> 0 / 8  | <font color=Red>休息：0</font>          
 print('| 总工时 <br/> 0 / '+str(workDay*8)+'  | <font color=#CC33CC>加班：0</font>      | |')
 print('|                       | <font color=DeepSkyBlue>出差：0</font>  | |')
 print('| 使用年假 <br/> 0 小时 | <font color=IndianRed>年假：0</font>    | |')
-print('| 使用倒休 <br/> 0 小时 | <font color=#DF0101>倒休：3</font>      | |')
+print('| 使用倒休 <br/> 0 小时 | <font color=#DF0101>倒休：0</font>      | |')
 print('| 获得倒休 <br/> 0 小时 |                                         | |')
 
 print()
