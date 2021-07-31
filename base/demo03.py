@@ -7,7 +7,7 @@ import sys
 
 workDay = 0
 restDay = 0
-month = 5
+month = 8
 weeks = calendar.monthcalendar(2021, month)
 
 jobDays = [[] for i in range(6)]
@@ -36,7 +36,7 @@ for week in weeks:
             jobDays[jobDaysIndex].append(day)
         #print()
         sys.stdout.write(week[i])
-    sys.stdout.write(' |')
+    sys.stdout.write('|')
     print()
 #print(weeks)
 
